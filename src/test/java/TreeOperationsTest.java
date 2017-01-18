@@ -50,5 +50,24 @@ public class TreeOperationsTest extends TestCase {
         Operation.addValue(tree, 1, 10);
 
         assertEquals(Operation.maxValue(tree,4,3), 100);
+   }
+
+    @Test
+    public void testAncestorUnion() {
+        /*
+          This test is to make sure we are only
+          using the union of the two paths to the root
+          from the chosen nodes when looking for the
+          max value between two nodes.
+         */
+        Tree tree = new Tree();
+        tree.addNode(1, 2);
+        tree.addNode(1, 3);
+        tree.addNode(3, 4);
+        tree.addNode(3, 5);
+        Operation.addValue(tree, 1, 100);
+        Operation.addValue(tree, 3, -50);
+
+        assertEquals(50, Operation.maxValue(tree, 4,5));
     }
 }
