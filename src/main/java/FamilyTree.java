@@ -1,8 +1,4 @@
-import com.google.common.graph.GraphBuilder;
-import com.google.common.graph.MutableGraph;
-
 import java.io.File;
-import java.util.HashMap;
 import java.util.Scanner;
 
 /*
