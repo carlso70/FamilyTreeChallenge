@@ -12,6 +12,13 @@ apply plugin: 'java'
 // Apply the application plugin to add support for building an application
 apply plugin: 'application'
 
+//Apply the checkstyle plugin to verify the code looks clean
+apply plugin: 'checkstyle'
+
+checkstyle {
+   configFile = new File(rootDir, "checkstyle.xml")
+}
+
 // In this section you declare where to find the dependencies of your project
 repositories {
     // Use jcenter for resolving your dependencies.
