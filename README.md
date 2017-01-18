@@ -1,9 +1,9 @@
 # FamilyTreeChallenge
 
 [![CircleCI](https://circleci.com/gh/carlso70/FamilyTreeChallenge.svg?style=shield&circle-token=1ef8009b58e654742383ca0de12783f85ee84c6d)](https://circleci.com/gh/carlso70/FamilyTreeChallenge)
-### Latest artifacts from CircleCI
+### Latest successful artifacts from CircleCI
  
-* [familytreechallenge.jar](https://circleci.com/api/v1/project/carlso70/FamilyTreeChallenge/latest/artifacts/0/$CIRCLE_ARTIFACTS/familytreechallenge.jar)
+* [familytreechallenge.jar](https://circleci.com/api/v1/project/carlso70/FamilyTreeChallenge/latest/artifacts/0/$CIRCLE_ARTIFACTS/familytreechallenge.jar?filter=successful)
 
 ### Build
 
