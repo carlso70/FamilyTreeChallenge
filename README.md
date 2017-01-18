@@ -13,6 +13,11 @@
 ```
 ./gradlew -q run
  ```
+ 
+ 
+### Latest artifacts
+ 
+ [familytreechallenge.jar](https://circleci.com/api/v1/project/carlso70/FamilyTreeChallenge/latest/artifacts/0/$CIRCLE_ARTIFACTS/familytreechallenge.jar)
 
 
 Problem Description
