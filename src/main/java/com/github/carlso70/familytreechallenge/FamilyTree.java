@@ -1,3 +1,5 @@
+package com.github.carlso70.familytreechallenge;
+
 import java.io.File;
 import java.util.Scanner;
 
