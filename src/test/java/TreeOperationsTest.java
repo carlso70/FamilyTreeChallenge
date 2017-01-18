@@ -48,7 +48,7 @@ public class TreeOperationsTest {
         Operation.addValue(tree, 4,100);
         Operation.addValue(tree, 1, 10);
 
-        assertEquals(Operation.maxValue(tree,4,3), 100);
+        assertEquals(Operation.maxValue(tree, 4, 5), 100);
    }
 
     @Test
