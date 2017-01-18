@@ -17,6 +17,11 @@
 ./gradlew -q run
  ```
  
+### Run latest jar
+
+```
+java -jar familytreechallenge.jar
+```
  
 
 
