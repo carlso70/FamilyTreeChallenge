@@ -1,4 +1,9 @@
+machine:
+  services:
+    - docker
+
 test:
   post:
     - gradle jar
+    - docker build .
     - mv build/libs/*.jar $CIRCLE_ARTIFACTS/
