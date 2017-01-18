@@ -2,9 +2,6 @@ package com.github.carlso70.familytreechallenge;
 
 import java.util.HashMap;
 
-/**
- * Created by jamescarlson on 1/17/17.
- */
 public class Tree {
 
     private Node root;

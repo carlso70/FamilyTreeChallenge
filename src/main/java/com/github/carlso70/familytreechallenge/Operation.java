@@ -2,9 +2,6 @@ package com.github.carlso70.familytreechallenge;
 
 import java.util.Stack;
 
-/**
- * Created by jamescarlson on 1/17/17.
- */
 public final class Operation {
 
     static int maxValue(Tree tree, int id, int id2) {

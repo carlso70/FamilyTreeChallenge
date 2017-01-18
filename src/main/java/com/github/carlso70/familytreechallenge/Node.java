@@ -2,9 +2,6 @@ package com.github.carlso70.familytreechallenge;
 
 import java.util.ArrayList;
 
-/**
- * Created by jamescarlson on 1/17/17.
- */
 public class Node {
 
     private Node parent;
