@@ -2,7 +2,7 @@ package com.github.carlso70.familytreechallenge;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class TreeOperationsTest {
     @Test
@@ -28,22 +28,22 @@ public class TreeOperationsTest {
         tree.addNode(1, 2);
         tree.addNode(2, 3);
         tree.addNode(2, 4);
-        tree.addNode(1,5);
+        tree.addNode(1, 5);
 
-        Operation.addValue(tree, 4,30);
+        Operation.addValue(tree, 4, 30);
         Operation.addValue(tree, 5, 20);
 
-        assertEquals(Operation.maxValue(tree, 4,5), 30);
+        assertEquals(Operation.maxValue(tree, 4, 5), 30);
     }
 
     @Test
     public void addParentWithoutRoot() {
         Tree tree = new Tree();
-        tree.addNode(1,2);
-        tree.addNode(1,3);
-        tree.addNode(4,5);
+        tree.addNode(1, 2);
+        tree.addNode(1, 3);
+        tree.addNode(4, 5);
 
-        Operation.addValue(tree, 4,100);
+        Operation.addValue(tree, 4, 100);
         Operation.addValue(tree, 1, 10);
 
         assertEquals(Operation.maxValue(tree, 4, 5), 100);
@@ -65,7 +65,7 @@ public class TreeOperationsTest {
         Operation.addValue(tree, 1, 100);
         Operation.addValue(tree, 3, -50);
 
-        assertEquals(50, Operation.maxValue(tree, 4,5));
+        assertEquals(50, Operation.maxValue(tree, 4, 5));
     }
 
     @Test
