@@ -1,6 +1,4 @@
 test:
   post:
     - gradle jar
-general:
-  artifacts:
-    - "build/libs/familytreechallenge.jar"
+    - mv build/libs/*.jar $CIRCLE_ARTIFACTS/
