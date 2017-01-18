@@ -20,8 +20,9 @@ public class Tree {
     }
 
     public void addNode(int parentId, int childId) {
-        if (parentId == childId)
+        if (parentId == childId) {
             return;
+        }
 
         Node parent = getNode(parentId);
         Node child = new Node(childId);

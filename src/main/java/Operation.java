@@ -12,13 +12,15 @@ public final class Operation {
         if (node != null || node2 != null) {
             int max = node.getValue();
             while (node != null) {
-                if (node.getValue() > max)
+                if (node.getValue() > max) {
                     max = node.getValue();
+                }
                 node = node.getParent();
             }
             while (node2 != null) {
-                if (node2.getValue() > max)
+                if (node2.getValue() > max) {
                     max = node2.getValue();
+                }
                 node2 = node2.getParent();
             }
 
@@ -37,8 +39,9 @@ public final class Operation {
             while (!nodeStack.isEmpty()) {
                 Node node = nodeStack.pop();
                 node.addValue(value);
-                for (Node n: node.getChildren())
+                for (Node n: node.getChildren()) {
                     nodeStack.push(n);
+                }
             }
         }
     }
