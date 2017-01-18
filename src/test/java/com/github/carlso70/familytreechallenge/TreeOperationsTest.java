@@ -69,4 +69,9 @@ public class TreeOperationsTest {
 
         assertEquals(50, Operation.maxValue(tree, 4,5));
     }
+
+    @Test
+    public void testMaxPathWithRootNode() {
+
+    }
 }
